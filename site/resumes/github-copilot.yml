@@ -1,0 +1,82 @@
+template: "online-cv"
+skin: "blue"
+
+# Información Personal
+basic_info:
+  first_name: Pablo
+  last_name: [Tu apellido aquí]
+  motto: Mejora continua y precisión editorial
+  focus: Calidad en contenidos técnicos
+  summary: |
+    Profesional metódico y detallista con experiencia en revisión técnica y editorial de contenidos educativos en ciencia de datos. Especializado en detectar errores ortográficos, gramaticales y de estilo en español, así como en normalización de datos y automatización de procesos de QA. Apasionado por mejorar la accesibilidad y profesionalismo de los recursos educativos.
+
+  avatar: https://randomuser.me/api/portraits/men/24.jpg
+  email: pablo@email.com
+  linkedin: pablo-editorial
+  github: github-copilot
+
+  languages:
+    - idiom: Español
+      level: Nativo
+    - idiom: Inglés
+      level: Profesional
+
+  interests:
+    - item: Edición técnica
+    - item: Automatización de QA
+    - item: Documentación profesional
+
+# Educación
+education:
+  - degree: Licenciatura en Lingüística Computacional
+    university: Universidad de Chile
+    time: 2012 - 2016
+    details: |
+      Formación en análisis del lenguaje, procesamiento de datos y edición técnica. Enfoque en calidad editorial y accesibilidad de contenidos digitales.
+
+# Experiencia Profesional
+experiences:
+  - role: Revisor Técnico Editorial
+    time: 2020 - Actualidad
+    company: Proyecto Educativo en Ciencia de Datos
+    details: |
+      Revisión de materiales educativos en español, detección de errores ortográficos y de estilo, normalización de nombres y automatización de procesos de QA.
+
+        - Corrección de README y notebooks técnicos
+        - Propuestas de mejora editorial y documentación
+
+  - role: Analista de Datos Junior
+    time: 2017 - 2020
+    company: Consultora de Tecnología Educativa
+    details: |
+      Limpieza de datos, detección de outliers y documentación de procesos. Apoyo en la creación de pipelines reutilizables para proyectos educativos.
+
+        - Automatización de validaciones
+        - Documentación clara y accesible
+
+# Proyectos
+projects:
+  intro: >
+    Aquí se listan proyectos técnicos y editoriales enfocados en mejorar la calidad de recursos educativos en ciencia de datos.
+
+  assignments:
+    - title: QA Automatizado para Contenidos Educativos
+      tagline: Scripts para detectar errores y normalizar datos en materiales de aprendizaje.
+
+    - title: Estilo Editorial para Notebooks Técnicos
+      tagline: Guía de estilo para mejorar claridad y profesionalismo en documentación técnica.
+
+# Habilidades
+skills:
+  toolset:
+    - name: Python (pandas, numpy)
+      level: 95%
+    - name: Edición y corrección en español
+      level: 98%
+    - name: QA automatizado
+      level: 90%
+    - name: Markdown y documentación técnica
+      level: 95%
+    - name: Git y control de versiones
+      level: 85%
+
